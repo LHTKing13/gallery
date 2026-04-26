@@ -294,7 +294,7 @@ fun ChatPanel(
                   message.type !== ChatMessageType.WEBVIEW &&
                   message.type !== ChatMessageType.COLLAPSABLE_PROGRESS_PANEL
               ) {
-                extraPaddingEnd = 48.dp
+                extraPaddingEnd = 0.dp
               }
             } else if (message.side == ChatSide.SYSTEM) {
               extraPaddingStart = 24.dp
